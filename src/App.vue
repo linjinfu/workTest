@@ -1,19 +1,20 @@
 <template>
   <div id="app">
     <!-- <number-input></number-input> -->
-    <china-Map />
+    <!-- <china-Map /> -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 // import NumberInput from "./components/NumberInputComponent"
-import ChinaMap from './components/ChinaMapComponent'
+// import ChinaMap from './components/ChinaMapComponent'
 
 export default {
   name: 'App',
   components: {
     // NumberInput,
-    ChinaMap
+    // ChinaMap
   }
 }
 </script>
